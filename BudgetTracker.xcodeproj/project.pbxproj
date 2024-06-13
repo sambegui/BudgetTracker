@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB2BC5C02C1AD5D800FBCDFE /* PortraitViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BC5BF2C1AD5D700FBCDFE /* PortraitViewModifier.swift */; };
 		FB5590682C1AA6CF003D74E9 /* BudgetTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590672C1AA6CF003D74E9 /* BudgetTrackerApp.swift */; };
 		FB55906A2C1AA6CF003D74E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590692C1AA6CF003D74E9 /* ContentView.swift */; };
 		FB55906C2C1AA6D0003D74E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB55906B2C1AA6D0003D74E9 /* Assets.xcassets */; };
 		FB55906F2C1AA6D0003D74E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB55906E2C1AA6D0003D74E9 /* Preview Assets.xcassets */; };
-		FB5590712C1AA6D0003D74E9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590702C1AA6D0003D74E9 /* Persistence.swift */; };
 		FB5590742C1AA6D0003D74E9 /* BudgetTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5590722C1AA6D0003D74E9 /* BudgetTracker.xcdatamodeld */; };
 		FB55907E2C1AA6D1003D74E9 /* BudgetTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB55907D2C1AA6D1003D74E9 /* BudgetTrackerTests.swift */; };
 		FB5590882C1AA6D1003D74E9 /* BudgetTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590872C1AA6D1003D74E9 /* BudgetTrackerUITests.swift */; };
 		FB55908A2C1AA6D1003D74E9 /* BudgetTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590892C1AA6D1003D74E9 /* BudgetTrackerUITestsLaunchTests.swift */; };
+		FB55909B2C1AA754003D74E9 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB55909A2C1AA754003D74E9 /* TransactionViewModel.swift */; };
+		FB55909F2C1AA799003D74E9 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB55909E2C1AA798003D74E9 /* TransactionListView.swift */; };
+		FB5590A12C1AA7A5003D74E9 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590A02C1AA7A4003D74E9 /* TransactionDetailView.swift */; };
+		FB5590A32C1AA85A003D74E9 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590A22C1AA858003D74E9 /* PersistenceController.swift */; };
+		FB5590A52C1AB072003D74E9 /* TransactionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590A42C1AB071003D74E9 /* TransactionExtensions.swift */; };
+		FB5590A72C1AB13C003D74E9 /* TransactionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590A62C1AB13B003D74E9 /* TransactionFormView.swift */; };
+		FB5590A92C1AB59A003D74E9 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5590A82C1AB598003D74E9 /* SummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +43,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB2BC5BF2C1AD5D700FBCDFE /* PortraitViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitViewModifier.swift; sourceTree = "<group>"; };
 		FB5590642C1AA6CF003D74E9 /* BudgetTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5590672C1AA6CF003D74E9 /* BudgetTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTrackerApp.swift; sourceTree = "<group>"; };
 		FB5590692C1AA6CF003D74E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB55906B2C1AA6D0003D74E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB55906E2C1AA6D0003D74E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FB5590702C1AA6D0003D74E9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FB5590732C1AA6D0003D74E9 /* BudgetTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BudgetTracker.xcdatamodel; sourceTree = "<group>"; };
 		FB5590792C1AA6D1003D74E9 /* BudgetTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB55907D2C1AA6D1003D74E9 /* BudgetTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTrackerTests.swift; sourceTree = "<group>"; };
 		FB5590832C1AA6D1003D74E9 /* BudgetTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5590872C1AA6D1003D74E9 /* BudgetTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTrackerUITests.swift; sourceTree = "<group>"; };
 		FB5590892C1AA6D1003D74E9 /* BudgetTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB55909A2C1AA754003D74E9 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		FB55909E2C1AA798003D74E9 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		FB5590A02C1AA7A4003D74E9 /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
+		FB5590A22C1AA858003D74E9 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		FB5590A42C1AB071003D74E9 /* TransactionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionExtensions.swift; sourceTree = "<group>"; };
+		FB5590A62C1AB13B003D74E9 /* TransactionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormView.swift; sourceTree = "<group>"; };
+		FB5590A82C1AB598003D74E9 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +112,19 @@
 		FB5590662C1AA6CF003D74E9 /* BudgetTracker */ = {
 			isa = PBXGroup;
 			children = (
+				FB2BC5BF2C1AD5D700FBCDFE /* PortraitViewModifier.swift */,
+				FB5590A82C1AB598003D74E9 /* SummaryView.swift */,
+				FB5590A62C1AB13B003D74E9 /* TransactionFormView.swift */,
+				FB5590A42C1AB071003D74E9 /* TransactionExtensions.swift */,
+				FB5590A22C1AA858003D74E9 /* PersistenceController.swift */,
+				FB5590A02C1AA7A4003D74E9 /* TransactionDetailView.swift */,
+				FB55909E2C1AA798003D74E9 /* TransactionListView.swift */,
 				FB5590672C1AA6CF003D74E9 /* BudgetTrackerApp.swift */,
 				FB5590692C1AA6CF003D74E9 /* ContentView.swift */,
 				FB55906B2C1AA6D0003D74E9 /* Assets.xcassets */,
-				FB5590702C1AA6D0003D74E9 /* Persistence.swift */,
 				FB5590722C1AA6D0003D74E9 /* BudgetTracker.xcdatamodeld */,
 				FB55906D2C1AA6D0003D74E9 /* Preview Content */,
+				FB55909A2C1AA754003D74E9 /* TransactionViewModel.swift */,
 			);
 			path = BudgetTracker;
 			sourceTree = "<group>";
@@ -263,10 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5590712C1AA6D0003D74E9 /* Persistence.swift in Sources */,
+				FB55909F2C1AA799003D74E9 /* TransactionListView.swift in Sources */,
+				FB5590A12C1AA7A5003D74E9 /* TransactionDetailView.swift in Sources */,
+				FB2BC5C02C1AD5D800FBCDFE /* PortraitViewModifier.swift in Sources */,
 				FB5590742C1AA6D0003D74E9 /* BudgetTracker.xcdatamodeld in Sources */,
 				FB55906A2C1AA6CF003D74E9 /* ContentView.swift in Sources */,
+				FB5590A52C1AB072003D74E9 /* TransactionExtensions.swift in Sources */,
 				FB5590682C1AA6CF003D74E9 /* BudgetTrackerApp.swift in Sources */,
+				FB55909B2C1AA754003D74E9 /* TransactionViewModel.swift in Sources */,
+				FB5590A92C1AB59A003D74E9 /* SummaryView.swift in Sources */,
+				FB5590A32C1AA85A003D74E9 /* PersistenceController.swift in Sources */,
+				FB5590A72C1AB13C003D74E9 /* TransactionFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +464,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,8 +493,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

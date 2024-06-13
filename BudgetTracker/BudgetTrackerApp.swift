@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct BudgetTrackerApp: App {
+    // Initialize Core Data stack
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
