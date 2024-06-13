@@ -14,13 +14,6 @@ Budget Tracker is an iOS application that allows users to track their income and
 - **Persistent Storage:** Transactions are stored using Core Data.
 - **Portrait Mode Only:** The app is locked to portrait orientation to ensure a consistent user experience.
 
-## Screenshots
-
-![Home Screen](screenshots/home.png)
-![Add Transaction](screenshots/add_transaction.png)
-![Transaction Detail](screenshots/transaction_detail.png)
-![Summary View](screenshots/summary.png)
-
 ## Requirements
 
 - iOS 13.0+
